@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -ms-box-sizing: border-box;
+ }
+.title {
+    background-color: #33BEBE;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: white;
+    padding: 20px 0 3px 5px;
+}
+
+.app {
+    overflow: hidden;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.app img {
+    margin-right: 15px;
+    float: left;
+    width: 460px;
+}
+.description {
+    width: 755px;
+    color: #7C8B88;
+    font-size: 28px;
+}
