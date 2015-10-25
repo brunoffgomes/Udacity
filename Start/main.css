@@ -11,6 +11,12 @@ body {
   color: #424242;
 }
 
+/* For smaller devices show 100% but add 10px margin  */
+@media only screen and (max-width: 799px) {
+  margin: 10px 10px;
+}
+
+/* for all devices above 800px we want to center content and leave padding right and left */
 @media only screen and (min-width: 800px) and (max-width: 1199px) {
   body {
     width: 800px;
@@ -24,6 +30,7 @@ body {
     margin: 0 auto;
   }
 }
+/*  End of Media Query  */
 
 h1, h2, h3, h4, h5 {
   margin: 0; 
@@ -118,6 +125,7 @@ ul {
 .nav a {
   text-decoration: none;
   color: #616161;
+  padding: 1.5em;
 }
 
 .nav a:hover {
@@ -208,6 +216,7 @@ main {
 .top-news__item a {
   text-decoration: none;
   color: #666;
+  padding: 1.5em inherit;
 }
 
 .top-news__item a:hover,
@@ -349,6 +358,7 @@ main {
 .snippet__title a {
   text-decoration: none;
   color: #666;
+  padding: 1.5em;
 }
 
 .snippet__title a:hover,
@@ -377,4 +387,5 @@ footer li {
 footer a {
   text-decoration: none;
   color: #333;
+  padding: 1.5em;
 }
