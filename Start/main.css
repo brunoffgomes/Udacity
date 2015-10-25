@@ -11,6 +11,20 @@ body {
   color: #424242;
 }
 
+@media only screen and (min-width: 800px) and (max-width: 1199px) {
+  body {
+    width: 800px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    width: 1000px;
+    margin: 0 auto;
+  }
+}
+
 h1, h2, h3, h4, h5 {
   margin: 0; 
 }
