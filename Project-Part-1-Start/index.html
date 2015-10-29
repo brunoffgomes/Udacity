@@ -12,7 +12,7 @@
   <base target="_blank">
 
   <title>My responsive blog: picture story</title>
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/main.css" />
 
 </head>
@@ -23,23 +23,79 @@
 
   <article>
 
-    <img src="images/still_life-small.jpg" alt="still life">
+    <picture>
+      <source src="images/horses-large.jpg"
+              media="( (min-device-pixel-ratio: 1.5) and (min-width: 20.001em) and (max-width: 35.999em) ) or
+                     ( (max-device-pixel-ratio: 1.5) and (min-width: 120.001em) ) or
+                     ( (min-device-pixel-ratio: 1.5) and (min-width: 60.001em) )" />
+      <!-- <source src="images/horses-medium.jpg"
+              media="( (max-device-pixel-ratio: 1.5) and (min-width: 20.001em) and (max-width: 35.999em) ) or
+                     ( (max-device-pixel-ratio: 1.5) and (min-width: 60.001em) ) or
+                     ( (min-device-pixel-ratio: 1.5) and (min-width: 10.001em) )" /> -->
+      <source src="images/horses-small.jpg" />
+
+      <!-- fallback -->
+      <img src="images/horses-small.jpg" alt="still life" />
+    </picture>
+    <!-- <img src="images/still_life-small.jpg" srcset="images/still_life-small.jpg 1x images/still_life-large.jpg 2x" alt="still life" > -->
 
     <h2>My story</h2>
     
     <p>I love cheese, especially manchego swiss. &#9786; Fromage queso jarlsberg cheesy feet emmental cottage cheese camembert de normandie bocconcini. Cottage cheese everyone loves cauliflower cheese rubber cheese squirty cheese halloumi cow fondue. Bocconcini cheese and biscuits everyone loves fondue red leicester st. agur blue cheese rubber cheese ricotta. Cheesy grin mozzarella.</p>
     
-    <img src="images/horses-small.jpg" alt="horses">
+    <picture>
+      <source src="images/horses-large.jpg"
+              media="( (min-device-pixel-ratio: 1.5) and (min-width: 20.001em) and (max-width: 35.999em) ) or
+                     ( (max-device-pixel-ratio: 1.5) and (min-width: 120.001em) ) or
+                     ( (min-device-pixel-ratio: 1.5) and (min-width: 60.001em) )" />
+      <!-- <source src="images/horses-medium.jpg"
+              media="( (max-device-pixel-ratio: 1.5) and (min-width: 20.001em) and (max-width: 35.999em) ) or
+                     ( (max-device-pixel-ratio: 1.5) and (min-width: 60.001em) ) or
+                     ( (min-device-pixel-ratio: 1.5) and (min-width: 10.001em) )" /> -->
+      <source src="images/horses-small.jpg" />
+
+      <!-- fallback -->
+      <img src="images/horses-small.jpg" alt="horses" />
+    </picture>
+    <!-- <img src="images/horses-small.jpg" srcset="iimages/horses-small.jpg 1x iimages/horses-large.jpg 2x" alt="horses"> -->
     
     <p>Bocconcini swiss cut the cheese. Manchego boursin smelly cheese cheesy grin squirty cheese mozzarella cheddar hard cheese. Manchego roquefort camembert de normandie cheese slices mascarpone cow cheesy feet airedale. Port-salut jarlsberg gouda port-salut port-salut cheese on toast.</p>
     
     <p>Manchego cheese strings hard cheese. Say cheese swiss cheese strings squirty cheese mozzarella feta the big cheese halloumi. Cheddar cheese and biscuits cut the cheese queso hard cheese red leicester parmesan st. agur blue cheese. Smelly cheese caerphilly hard cheese cream cheese cream cheese the big cheese feta squirty cheese. Babybel fromage edam lancashire.</p>
     
-    <img src="images/volt-small.jpg" alt="volt">
+    <picture>
+      <source src="images/volt-large.jpg"
+              media="( (min-device-pixel-ratio: 1.5) and (min-width: 20.001em) and (max-width: 35.999em) ) or
+                     ( (max-device-pixel-ratio: 1.5) and (min-width: 120.001em) ) or
+                     ( (min-device-pixel-ratio: 1.5) and (min-width: 60.001em) )" />
+      <!-- <source src="images/volt-medium.jpg"
+              media="( (max-device-pixel-ratio: 1.5) and (min-width: 20.001em) and (max-width: 35.999em) ) or
+                     ( (max-device-pixel-ratio: 1.5) and (min-width: 60.001em) ) or
+                     ( (min-device-pixel-ratio: 1.5) and (min-width: 10.001em) )" /> -->
+      <source src="images/volt-small.jpg" />
+
+      <!-- fallback -->
+      <img src="images/volt-small.jpg" alt="volt" />
+    </picture>
+    <!-- <img src="images/volt-small.jpg" srcset="images/volt-small.jpg 1x images/volt-large.jpg 2x" alt="volt"> -->
     
     <p>Edam parmesan smelly cheese. Dolcelatte say cheese cheesy feet lancashire cow boursin stinking bishop brie. Stilton cheese strings say cheese pecorino cheeseburger fromage frais cauliflower cheese manchego. St. agur blue cheese ricotta stinking bishop queso camembert de normandie manchego cheese triangles fondue. Gouda.</p>
     
-    <img src="images/cockatoos-small.jpg" alt="cockatoos">
+    <picture>
+      <source src="images/cockatoos-large.jpg"
+              media="( (min-device-pixel-ratio: 1.5) and (min-width: 20.001em) and (max-width: 35.999em) ) or
+                     ( (max-device-pixel-ratio: 1.5) and (min-width: 120.001em) ) or
+                     ( (min-device-pixel-ratio: 1.5) and (min-width: 60.001em) )" />
+      <!-- <source src="images/cockatoos-medium.jpg"
+              media="( (max-device-pixel-ratio: 1.5) and (min-width: 20.001em) and (max-width: 35.999em) ) or
+                     ( (max-device-pixel-ratio: 1.5) and (min-width: 60.001em) ) or
+                     ( (min-device-pixel-ratio: 1.5) and (min-width: 10.001em) )" /> -->
+      <source src="images/cockatoos-small.jpg" />
+
+      <!-- fallback -->
+      <img src="images/cockatoos-small.jpg" alt="cockatoos" />
+    </picture>
+    <!-- <img src="images/cockatoos-small.jpg" srcset="images/volt-small.jpg 1x images/volt-large.jpg 2x" alt="cockatoos"> -->
     
     <p>Babybel cream cheese cheese on toast. Brie fromage swiss cheese and biscuits hard cheese babybel bocconcini brie. Cheesy grin swiss cheese strings paneer lancashire cauliflower cheese cheese on toast caerphilly. Queso queso cheese and wine taleggio mascarpone cheeseburger.</p>
     
@@ -49,24 +105,86 @@
     
     <p>St. agur blue cheese cheese and wine say cheese. Goat cottage cheese brie cheese triangles say cheese when the cheese comes out everybody's happy stinking bishop dolcelatte. Parmesan say cheese cream cheese goat cauliflower cheese st. agur blue cheese cheese slices hard cheese. Cheese triangles.</p>
     
-    <img src="images/postcard-small.jpg" alt="postcard">
+    <picture>
+      <source src="images/postcard-large.jpg"
+              media="( (min-device-pixel-ratio: 1.5) and (min-width: 20.001em) and (max-width: 35.999em) ) or
+                     ( (max-device-pixel-ratio: 1.5) and (min-width: 120.001em) ) or
+                     ( (min-device-pixel-ratio: 1.5) and (min-width: 60.001em) )" />
+      <!-- <source src="images/postcard-medium.jpg"
+              media="( (max-device-pixel-ratio: 1.5) and (min-width: 20.001em) and (max-width: 35.999em) ) or
+                     ( (max-device-pixel-ratio: 1.5) and (min-width: 60.001em) ) or
+                     ( (min-device-pixel-ratio: 1.5) and (min-width: 10.001em) )" /> -->
+      <source src="images/postcard-small.jpg" />
+
+      <!-- fallback -->
+      <img src="images/postcard-small.jpg" alt="postcard" />
+    </picture>
+
+    <!-- <img src="images/postcard-small.jpg" srcset="images/postcard-small.jpg 1x images/postcard-large.jpg 2x" alt="postcard"> -->
     
     <p>Pecorino pepper jack cheesy feet. Smelly cheese cauliflower cheese fromage halloumi cream cheese who moved my cheese fromage fondue. Feta danish fontina cheesy grin mozzarella fromage cheesy grin airedale paneer. Cheddar halloumi cheese and biscuits jarlsberg cheese and biscuits cheese and biscuits squirty cheese.</p>
     
-    <img src="images/grasshopper-small.jpg" alt="grasshopper">
+    <picture>
+      <source src="images/grasshopper-large.jpg"
+              media="( (min-device-pixel-ratio: 1.5) and (min-width: 20.001em) and (max-width: 35.999em) ) or
+                     ( (max-device-pixel-ratio: 1.5) and (min-width: 120.001em) ) or
+                     ( (min-device-pixel-ratio: 1.5) and (min-width: 60.001em) )" />
+      <!-- <source src="images/grasshopper-medium.jpg"
+              media="( (max-device-pixel-ratio: 1.5) and (min-width: 20.001em) and (max-width: 35.999em) ) or
+                     ( (max-device-pixel-ratio: 1.5) and (min-width: 60.001em) ) or
+                     ( (min-device-pixel-ratio: 1.5) and (min-width: 10.001em) )" /> -->
+      <source src="images/grasshopper-small.jpg" />
+
+      <!-- fallback -->
+      <img src="images/grasshopper-small.jpg" alt="grasshopper" />
+    </picture>
+    <!-- <img src="images/grasshopper-small.jpg" srcset="images/grasshopper-small.jpg 1x images/grasshopper-large.jpg 2x" alt="grasshopper"> -->
     
     <p>Babybel cream cheese cheese on toast. Brie fromage swiss cheese and biscuits hard cheese babybel bocconcini brie. Cheesy grin swiss cheese strings paneer lancashire cauliflower cheese cheese on toast caerphilly. Queso queso cheese and wine taleggio mascarpone cheeseburger.</p>
     
-    <img src="images/sfo-small.jpg" alt="sfo">
+    <picture>
+      <source src="images/sfo-large.jpg"
+              media="( (min-device-pixel-ratio: 1.5) and (min-width: 20.001em) and (max-width: 35.999em) ) or
+                     ( (max-device-pixel-ratio: 1.5) and (min-width: 120.001em) ) or
+                     ( (min-device-pixel-ratio: 1.5) and (min-width: 60.001em) )" />
+      <!-- <source src="iimages/sfo-medium.jpg"
+              media="( (max-device-pixel-ratio: 1.5) and (min-width: 20.001em) and (max-width: 35.999em) ) or
+                     ( (max-device-pixel-ratio: 1.5) and (min-width: 60.001em) ) or
+                     ( (min-device-pixel-ratio: 1.5) and (min-width: 10.001em) )" /> -->
+      <source src="images/sfo-small.jpg" />
+
+      <!-- fallback -->
+      <!-- <img src="iimages/sfo-small.jpg" alt="sfo" /> -->
+    </picture>
+    <!-- <img src="images/sfo-small.jpg" srcset="images/sfo-small.jpg 1x images/sfo-large.jpg 2x" alt="sfo"> -->
     
     <p>Say cheese swiss cheesy grin. Cheese on toast queso bocconcini cheeseburger fondue manchego smelly cheese port-salut. Cream cheese cheese and wine airedale cheeseburger chalk and cheese cauliflower cheese fondue smelly cheese. Queso manchego.</p>
     
-    <img src="images/rosella-small.jpg" alt="rosella">
+    <picture>
+      <source src="images/rosella-large.jpg"
+              media="( (min-device-pixel-ratio: 1.5) and (min-width: 20.001em) and (max-width: 35.999em) ) or
+                     ( (max-device-pixel-ratio: 1.5) and (min-width: 120.001em) ) or
+                     ( (min-device-pixel-ratio: 1.5) and (min-width: 60.001em) )" />
+      <!-- <source src="images/rosella-medium.jpg"
+              media="( (max-device-pixel-ratio: 1.5) and (min-width: 20.001em) and (max-width: 35.999em) ) or
+                     ( (max-device-pixel-ratio: 1.5) and (min-width: 60.001em) ) or
+                     ( (min-device-pixel-ratio: 1.5) and (min-width: 10.001em) )" /> -->
+      <source src="images/rosella-small.jpg" />
+
+      <!-- fallback -->
+      <img src="images/rosella-small.jpg" alt="rosella" />
+    </picture>
+    <!-- <img src="images/rosella-small.jpg" srcset="iimages/rosella-small.jpg 1x images/rosella-large.jpg 2x" alt="rosella"> -->
 
     <p>Paneer st. agur blue cheese bocconcini. The big cheese chalk and cheese cheese and biscuits cream cheese cheese triangles mascarpone everyone loves rubber cheese. Stinking bishop manchego the big cheese lancashire hard cheese the big cheese danish fontina squirty cheese. Cheesy feet croque monsieur boursin squirty cheese cheddar boursin boursin pepper jack. Squirty cheese halloumi camembert de normandie macaroni cheese.</p>
-    
-    <i class="fa fa-twitter"></i>  <i class="fa fa-digg"></i>  <i class="fa fa-facebook"></i>  <i class="fa fa-google-plus"></i> 
   </article>
+  <section id = "socialMedia">
+    <a href="https://twitter.com/ratracegrad"><i class="fa fa-twitter fa-2x"></i></a>
+    <a href="http://www.digg.com"></i>  <i class="fa fa-digg fa-2x"></i></a>
+    <a href="https://www.facebook.com/Ratracegrad"><i class="fa fa-facebook fa-2x"></i></a>
+    <a href="https://plus.google.com/u/0/110729649944560126950/posts"><i class="fa fa-google-plus fa-2x"></i></a>
+  </section>
+
 
   
   <!--

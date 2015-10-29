@@ -19,6 +19,7 @@ body {
 
 article {
     width: 800px;
+    border-bottom: 1px solid grey;
 }
 
 h1 {
@@ -27,4 +28,7 @@ h1 {
 
 img {
     max-width: 100%;
+}
+i.fa {
+    padding: 15px 10px;
 }
